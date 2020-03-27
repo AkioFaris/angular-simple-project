@@ -14,6 +14,8 @@ import {RadioOverviewExample} from './app/radio-overview-example/radio-overview-
 import {RadioNgModelExample} from './app/radio-ng-model-example/radio-ng-model-example';
 import {CheckboxOverviewExample} from './app/checkbox-overview-example/checkbox-overview-example';
 import {CheckboxConfigurableExample} from './app/checkbox-configurable-example/checkbox-configurable-example';
+import {SlideToggleOverviewExample} from './app/slide-toggle-overview-example/slide-toggle-overview-example';
+import {SlideToggleConfigurableExample} from './app/slide-toggle-configurable-example/slide-toggle-configurable-example';
 import {AutocompleteOverviewExample} from './app/autocomplete-overview-example/autocomplete-overview-example';
 import {AutocompleteSimpleExample} from './app/autocomplete-simple-example/autocomplete-simple-example';
 import {AutocompleteDisplayExample} from './app/autocomplete-display-example/autocomplete-display-example';
@@ -34,15 +36,15 @@ import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete-auto-
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample,
-      AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample,
-      AutocompleteAutoActiveFirstOptionExample],
-  declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample,
-      AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample,
-      AutocompleteAutoActiveFirstOptionExample],
-  bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample,
-      AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample,
-      AutocompleteAutoActiveFirstOptionExample],
+  entryComponents: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
+      SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+  declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
+      SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+  bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
+      SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
