@@ -12,6 +12,12 @@ import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
 import {CheckboxOverviewExample} from './app/checkbox-overview-example/checkbox-overview-example';
 import {CheckboxConfigurableExample} from './app/checkbox-configurable-example/checkbox-configurable-example';
+import {AutocompleteOverviewExample} from './app/autocomplete-overview-example/autocomplete-overview-example';
+import {AutocompleteSimpleExample} from './app/autocomplete-simple-example/autocomplete-simple-example';
+import {AutocompleteDisplayExample} from './app/autocomplete-display-example/autocomplete-display-example';
+import {AutocompleteFilterExample} from './app/autocomplete-filter-example/autocomplete-filter-example';
+import {AutocompleteOptgroupExample} from './app/autocomplete-optgroup-example/autocomplete-optgroup-example';
+import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete-auto-active-first-option-example/autocomplete-auto-active-first-option-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -26,9 +32,12 @@ import {CheckboxConfigurableExample} from './app/checkbox-configurable-example/c
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [CheckboxOverviewExample, CheckboxConfigurableExample],
-  declarations: [CheckboxOverviewExample, CheckboxConfigurableExample],
-  bootstrap: [CheckboxOverviewExample, CheckboxConfigurableExample],
+  entryComponents: [CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample,
+        AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+  declarations: [CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample,
+        AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+  bootstrap: [CheckboxOverviewExample, CheckboxConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample,
+        AutocompleteDisplayExample, AutocompleteFilterExample, AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
