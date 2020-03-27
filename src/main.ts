@@ -22,6 +22,14 @@ import {AutocompleteDisplayExample} from './app/autocomplete-display-example/aut
 import {AutocompleteFilterExample} from './app/autocomplete-filter-example/autocomplete-filter-example';
 import {AutocompleteOptgroupExample} from './app/autocomplete-optgroup-example/autocomplete-optgroup-example';
 import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete-auto-active-first-option-example/autocomplete-auto-active-first-option-example';
+import {InputOverviewExample} from './app/input-overview-example/input-overview-example';
+import {InputErrorStateMatcherExample} from './app/input-error-state-matcher-example/input-error-state-matcher-example';
+import {TextFieldAutosizeTextareaExample} from './app/text-field-autosize-textarea-example/text-field-autosize-textarea-example';
+import {InputClearableExample} from './app/input-clearable-example/input-clearable-example';
+import {InputErrorsExample} from './app/input-errors-example/input-errors-example';
+import {InputFormExample} from './app/input-form-example/input-form-example';
+import {InputHintExample} from './app/input-hint-example/input-hint-example';
+import {InputPrefixSuffixExample} from './app/input-prefix-suffix-example/input-prefix-suffix-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -38,13 +46,16 @@ import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete-auto-
   ],
   entryComponents: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample],
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
