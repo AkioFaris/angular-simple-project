@@ -74,6 +74,11 @@ import {SidenavOverviewExample} from './app/sidenav/sidenav-overview-example';
 import {SidenavDrawerOverviewExample} from './app/sidenav/sidenav-drawer-overview-example';
 
 import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
+import {CardOverviewExample} from './app/card/card-overview-example';
+import {CardFancyExample} from './app/card/card-fancy-example';
+import {DividerOverviewExample} from './app/divider/divider-overview-example';
+import {ExpansionOverviewExample} from './app/expansion-panel/expansion-overview-example';
+import {ExpansionStepsExample} from './app/expansion-panel/expansion-steps-example';
 
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
@@ -101,7 +106,7 @@ import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -114,7 +119,7 @@ import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -127,7 +132,7 @@ import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
