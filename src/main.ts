@@ -57,6 +57,14 @@ import {DatepickerApiExample} from './app/datepicker/datepicker-api-example';
 // import {DatepickerLocaleExample} from './app/datepicker/datepicker-locale-example';
 // import {DatepickerMomentExample} from './app/datepicker/datepicker-moment-example';
 // import {DatepickerFormatsExample} from './app/datepicker/datepicker-formats-example';
+import {FormFieldOverviewExample} from './app/form-field/form-field-overview-example';
+import {FormFieldLabelExample} from './app/form-field/form-field-label-example';
+import {FormFieldAppearanceExample} from './app/form-field/form-field-appearance-example';
+import {FormFieldHintExample} from './app/form-field/form-field-hint-example';
+import {FormFieldErrorExample} from './app/form-field/form-field-error-example';
+import {FormFieldPrefixSuffixExample} from './app/form-field/form-field-prefix-suffix-example';
+import {FormFieldThemingExample} from './app/form-field/form-field-theming-example';
+import {FormFieldCustomControlExample, MyTelInput} from './app/form-field/form-field-custom-control-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -79,7 +87,9 @@ import {DatepickerApiExample} from './app/datepicker/datepicker-api-example';
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
       SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
-      DatepickerTouchExample, DatepickerApiExample],
+      DatepickerTouchExample, DatepickerApiExample,
+      FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -88,7 +98,9 @@ import {DatepickerApiExample} from './app/datepicker/datepicker-api-example';
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
       SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
-      DatepickerTouchExample, DatepickerApiExample],
+      DatepickerTouchExample, DatepickerApiExample,
+      FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -97,7 +109,9 @@ import {DatepickerApiExample} from './app/datepicker/datepicker-api-example';
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
       SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
-      DatepickerTouchExample, DatepickerApiExample],
+      DatepickerTouchExample, DatepickerApiExample,
+      FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
