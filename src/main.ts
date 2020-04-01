@@ -10,26 +10,38 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DemoMaterialModule} from './app/material-module';
 import {MAT_FORM_FIELD_DEFAULT_OPTIONS} from '@angular/material/form-field';
 
-import {RadioOverviewExample} from './app/radio-overview-example/radio-overview-example';
-import {RadioNgModelExample} from './app/radio-ng-model-example/radio-ng-model-example';
-import {CheckboxOverviewExample} from './app/checkbox-overview-example/checkbox-overview-example';
-import {CheckboxConfigurableExample} from './app/checkbox-configurable-example/checkbox-configurable-example';
-import {SlideToggleOverviewExample} from './app/slide-toggle-overview-example/slide-toggle-overview-example';
-import {SlideToggleConfigurableExample} from './app/slide-toggle-configurable-example/slide-toggle-configurable-example';
-import {AutocompleteOverviewExample} from './app/autocomplete-overview-example/autocomplete-overview-example';
-import {AutocompleteSimpleExample} from './app/autocomplete-simple-example/autocomplete-simple-example';
-import {AutocompleteDisplayExample} from './app/autocomplete-display-example/autocomplete-display-example';
-import {AutocompleteFilterExample} from './app/autocomplete-filter-example/autocomplete-filter-example';
-import {AutocompleteOptgroupExample} from './app/autocomplete-optgroup-example/autocomplete-optgroup-example';
-import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete-auto-active-first-option-example/autocomplete-auto-active-first-option-example';
-import {InputOverviewExample} from './app/input-overview-example/input-overview-example';
-import {InputErrorStateMatcherExample} from './app/input-error-state-matcher-example/input-error-state-matcher-example';
-import {TextFieldAutosizeTextareaExample} from './app/text-field-autosize-textarea-example/text-field-autosize-textarea-example';
-import {InputClearableExample} from './app/input-clearable-example/input-clearable-example';
-import {InputErrorsExample} from './app/input-errors-example/input-errors-example';
-import {InputFormExample} from './app/input-form-example/input-form-example';
-import {InputHintExample} from './app/input-hint-example/input-hint-example';
-import {InputPrefixSuffixExample} from './app/input-prefix-suffix-example/input-prefix-suffix-example';
+import {RadioOverviewExample} from './app/radio-button/radio-overview-example';
+import {RadioNgModelExample} from './app/radio-button/radio-ng-model-example';
+import {CheckboxOverviewExample} from './app/checkbox/checkbox-overview-example';
+import {CheckboxConfigurableExample} from './app/checkbox/checkbox-configurable-example';
+import {SlideToggleOverviewExample} from './app/slide-toggle/slide-toggle-overview-example';
+import {SlideToggleConfigurableExample} from './app/slide-toggle/slide-toggle-configurable-example';
+import {AutocompleteOverviewExample} from './app/autocomplete/autocomplete-overview-example';
+import {AutocompleteSimpleExample} from './app/autocomplete/autocomplete-simple-example';
+import {AutocompleteDisplayExample} from './app/autocomplete/autocomplete-display-example';
+import {AutocompleteFilterExample} from './app/autocomplete/autocomplete-filter-example';
+import {AutocompleteOptgroupExample} from './app/autocomplete/autocomplete-optgroup-example';
+import {AutocompleteAutoActiveFirstOptionExample} from './app/autocomplete/autocomplete-auto-active-first-option-example';
+import {SelectOverviewExample} from './app/select/select-overview-example';
+import {SelectValueBindingExample} from './app/select/select-value-binding-example';
+import {SelectFormExample} from './app/select/select-form-example';
+import {SelectHintErrorExample} from './app/select/select-hint-error-example';
+import {SelectDisabledExample} from './app/select/select-disabled-example';
+import {SelectResetExample} from './app/select/select-reset-example';
+import {SelectOptgroupExample} from './app/select/select-optgroup-example';
+import {SelectMultipleExample} from './app/select/select-multiple-example';
+import {SelectCustomTriggerExample} from './app/select/select-custom-trigger-example';
+import {SelectNoRippleExample} from './app/select/select-no-ripple-example';
+import {SelectPanelClassExample} from './app/select/select-panel-class-example';
+import {SelectErrorStateMatcherExample} from './app/select/select-error-state-matcher-example';
+import {InputOverviewExample} from './app/input/input-overview-example';
+import {InputErrorStateMatcherExample} from './app/input/input-error-state-matcher-example';
+import {TextFieldAutosizeTextareaExample} from './app/input/text-field-autosize-textarea-example';
+import {InputClearableExample} from './app/input/input-clearable-example';
+import {InputErrorsExample} from './app/input/input-errors-example';
+import {InputFormExample} from './app/input/input-form-example';
+import {InputHintExample} from './app/input/input-hint-example';
+import {InputPrefixSuffixExample} from './app/input/input-prefix-suffix-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -46,15 +58,21 @@ import {InputPrefixSuffixExample} from './app/input-prefix-suffix-example/input-
   ],
   entryComponents: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
+      SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
+      SelectNoRippleExample, SelectPanelClassExample, InputOverviewExample, SelectErrorStateMatcherExample, InputErrorStateMatcherExample,
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
+      SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
+      SelectNoRippleExample, SelectPanelClassExample, InputOverviewExample, SelectErrorStateMatcherExample, InputErrorStateMatcherExample,
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
-      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, InputOverviewExample, InputErrorStateMatcherExample,
+      AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
+      SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
+      SelectNoRippleExample, SelectPanelClassExample, SelectErrorStateMatcherExample, InputOverviewExample, InputErrorStateMatcherExample,
       TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
