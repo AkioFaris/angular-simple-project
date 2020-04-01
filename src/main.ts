@@ -74,12 +74,16 @@ import {SidenavOverviewExample} from './app/sidenav/sidenav-overview-example';
 import {SidenavDrawerOverviewExample} from './app/sidenav/sidenav-drawer-overview-example';
 
 import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
+
 import {CardOverviewExample} from './app/card/card-overview-example';
 import {CardFancyExample} from './app/card/card-fancy-example';
 import {DividerOverviewExample} from './app/divider/divider-overview-example';
 import {ExpansionOverviewExample} from './app/expansion-panel/expansion-overview-example';
 import {ExpansionStepsExample} from './app/expansion-panel/expansion-steps-example';
-
+import {GridListOverviewExample} from './app/grid-list/grid-list-overview-example';
+import {GridListDynamicExample} from './app/grid-list/grid-list-dynamic-example';
+import {ListOverviewExample} from './app/list/list-overview-example';
+import {ListSectionsExample} from './app/list/list-sections-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -106,7 +110,8 @@ import {ExpansionStepsExample} from './app/expansion-panel/expansion-steps-examp
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -119,7 +124,8 @@ import {ExpansionStepsExample} from './app/expansion-panel/expansion-steps-examp
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -132,7 +138,8 @@ import {ExpansionStepsExample} from './app/expansion-panel/expansion-steps-examp
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
-      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample],
+      SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
