@@ -42,6 +42,21 @@ import {InputErrorsExample} from './app/input/input-errors-example';
 import {InputFormExample} from './app/input/input-form-example';
 import {InputHintExample} from './app/input/input-hint-example';
 import {InputPrefixSuffixExample} from './app/input/input-prefix-suffix-example';
+import {SliderOverviewExample} from './app/slider/slider-overview-example';
+import {SliderFormattingExample} from './app/slider/slider-formatting-example';
+import {SliderConfigurableExample} from './app/slider/slider-configurable-example';
+import {DatepickerOverviewExample} from './app/datepicker/datepicker-overview-example';
+import {DatepickerStartViewExample} from './app/datepicker/datepicker-start-view-example';
+import {DatepickerValueExample} from './app/datepicker/datepicker-value-example';
+import {DatepickerMinMaxExample} from './app/datepicker/datepicker-min-max-example';
+import {DatepickerFilterExample} from './app/datepicker/datepicker-filter-example';
+import {DatepickerEventsExample} from './app/datepicker/datepicker-events-example';
+import {DatepickerDisabledExample} from './app/datepicker/datepicker-disabled-example';
+import {DatepickerTouchExample} from './app/datepicker/datepicker-touch-example';
+import {DatepickerApiExample} from './app/datepicker/datepicker-api-example';
+// import {DatepickerLocaleExample} from './app/datepicker/datepicker-locale-example';
+// import {DatepickerMomentExample} from './app/datepicker/datepicker-moment-example';
+// import {DatepickerFormatsExample} from './app/datepicker/datepicker-formats-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -61,19 +76,28 @@ import {InputPrefixSuffixExample} from './app/input/input-prefix-suffix-example'
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
       SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
       SelectNoRippleExample, SelectPanelClassExample, InputOverviewExample, SelectErrorStateMatcherExample, InputErrorStateMatcherExample,
-      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
+      SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
+      DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
+      DatepickerTouchExample, DatepickerApiExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
       SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
       SelectNoRippleExample, SelectPanelClassExample, InputOverviewExample, SelectErrorStateMatcherExample, InputErrorStateMatcherExample,
-      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
+      SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
+      DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
+      DatepickerTouchExample, DatepickerApiExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
       SelectHintErrorExample, SelectDisabledExample, SelectResetExample, SelectOptgroupExample, SelectMultipleExample, SelectCustomTriggerExample,
       SelectNoRippleExample, SelectPanelClassExample, SelectErrorStateMatcherExample, InputOverviewExample, InputErrorStateMatcherExample,
-      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample],
+      TextFieldAutosizeTextareaExample, InputClearableExample, InputErrorsExample, InputFormExample, InputHintExample, InputPrefixSuffixExample,
+      SliderOverviewExample, SliderFormattingExample, SliderConfigurableExample, DatepickerOverviewExample, DatepickerStartViewExample,
+      DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
+      DatepickerTouchExample, DatepickerApiExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
