@@ -65,6 +65,16 @@ import {FormFieldErrorExample} from './app/form-field/form-field-error-example';
 import {FormFieldPrefixSuffixExample} from './app/form-field/form-field-prefix-suffix-example';
 import {FormFieldThemingExample} from './app/form-field/form-field-theming-example';
 import {FormFieldCustomControlExample, MyTelInput} from './app/form-field/form-field-custom-control-example';
+import {MenuOverviewExample} from './app/menu/menu-overview-example';
+import {MenuIconsExample} from './app/menu/menu-icons-example';
+import {NestedMenuExample} from './app/menu/nested-menu-example';
+import {ToolbarOverviewExample} from './app/toolbar/toolbar-overview-example';
+import {ToolbarMultirowExample} from './app/toolbar/toolbar-multirow-example';
+import {SidenavOverviewExample} from './app/sidenav/sidenav-overview-example';
+import {SidenavDrawerOverviewExample} from './app/sidenav/sidenav-drawer-overview-example';
+
+import {SidenavAutosizeExample} from './app/sidenav/sidenav-autosize-example';
+
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -89,7 +99,9 @@ import {FormFieldCustomControlExample, MyTelInput} from './app/form-field/form-f
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
       DatepickerTouchExample, DatepickerApiExample,
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
-      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
+      NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
+      SidenavAutosizeExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -100,7 +112,9 @@ import {FormFieldCustomControlExample, MyTelInput} from './app/form-field/form-f
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
       DatepickerTouchExample, DatepickerApiExample,
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
-      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
+      NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
+      SidenavAutosizeExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -111,7 +125,9 @@ import {FormFieldCustomControlExample, MyTelInput} from './app/form-field/form-f
       DatepickerValueExample, DatepickerMinMaxExample, DatepickerFilterExample, DatepickerEventsExample, DatepickerDisabledExample,
       DatepickerTouchExample, DatepickerApiExample,
       FormFieldOverviewExample, FormFieldLabelExample, FormFieldAppearanceExample, FormFieldHintExample, FormFieldErrorExample,
-      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput],
+      FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
+      NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
+      SidenavAutosizeExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
