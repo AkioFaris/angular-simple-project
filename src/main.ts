@@ -84,6 +84,11 @@ import {GridListOverviewExample} from './app/grid-list/grid-list-overview-exampl
 import {GridListDynamicExample} from './app/grid-list/grid-list-dynamic-example';
 import {ListOverviewExample} from './app/list/list-overview-example';
 import {ListSectionsExample} from './app/list/list-sections-example';
+import {TreeDynamicExample} from './app/tree/tree-dynamic-example';
+import {TreeFlatOverviewExample} from './app/tree/tree-flat-overview-example';
+import {TreeChecklistExample} from './app/tree/tree-checklist-example';
+import {TreeNestedOverviewExample} from './app/tree/tree-nested-overview-example';
+import {TreeLoadmoreExample} from './app/tree/tree-loadmore-example';
 
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
@@ -111,7 +116,8 @@ import {ListSectionsExample} from './app/list/list-sections-example';
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
-      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -125,7 +131,8 @@ import {ListSectionsExample} from './app/list/list-sections-example';
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
-      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -139,7 +146,8 @@ import {ListSectionsExample} from './app/list/list-sections-example';
       FormFieldPrefixSuffixExample, FormFieldThemingExample, FormFieldCustomControlExample, MyTelInput, MenuOverviewExample, MenuIconsExample,
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
-      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample],
+      GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
