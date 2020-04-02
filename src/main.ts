@@ -90,6 +90,8 @@ import {TreeChecklistExample} from './app/tree/tree-checklist-example';
 import {TreeNestedOverviewExample} from './app/tree/tree-nested-overview-example';
 import {TreeLoadmoreExample} from './app/tree/tree-loadmore-example';
 
+import {ButtonTypesExample} from './app/button/button-types-example';
+
 // Default MatFormField appearance to 'fill' as that is the new recommended approach and the
 // `legacy` and `standard` appearances are scheduled for deprecation in version 10.
 // This makes the examples that use MatFormField render the same in StackBlitz as on the docs site.
@@ -117,7 +119,8 @@ import {TreeLoadmoreExample} from './app/tree/tree-loadmore-example';
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
       GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
-      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample,
+      ButtonTypesExample],
   declarations: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -132,7 +135,8 @@ import {TreeLoadmoreExample} from './app/tree/tree-loadmore-example';
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
       GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
-      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample,
+      ButtonTypesExample],
   bootstrap: [RadioOverviewExample, RadioNgModelExample, CheckboxOverviewExample, CheckboxConfigurableExample, SlideToggleOverviewExample,
       SlideToggleConfigurableExample, AutocompleteOverviewExample, AutocompleteSimpleExample, AutocompleteDisplayExample, AutocompleteFilterExample,
       AutocompleteOptgroupExample, AutocompleteAutoActiveFirstOptionExample, SelectOverviewExample, SelectValueBindingExample, SelectFormExample,
@@ -147,7 +151,8 @@ import {TreeLoadmoreExample} from './app/tree/tree-loadmore-example';
       NestedMenuExample, ToolbarOverviewExample, ToolbarMultirowExample, SidenavOverviewExample, SidenavDrawerOverviewExample,
       SidenavAutosizeExample, CardOverviewExample, CardFancyExample, DividerOverviewExample, ExpansionOverviewExample, ExpansionStepsExample,
       GridListOverviewExample, GridListDynamicExample, ListOverviewExample, ListSectionsExample, TreeDynamicExample, TreeFlatOverviewExample,
-      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample],
+      TreeChecklistExample, TreeNestedOverviewExample, TreeLoadmoreExample,
+      ButtonTypesExample],
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
   ]
